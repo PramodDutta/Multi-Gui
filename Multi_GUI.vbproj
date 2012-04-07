@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BE2E9A3-ACE5-4ED7-9594-D4D90FE905C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Multi_GUI.My.MyApplication</StartupObject>
+    <RootNamespace>Multi_GUI</RootNamespace>
+    <AssemblyName>Multi_GUI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>C:\Users\eliteh4er_is_god\Documents\4 sem papar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Multi_GUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Multi_GUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>80309B1D6CD9B5F6B301DC7AE386D21DE39CD1EC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Multi_GUI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GoogleTranslateAPI">
+      <HintPath>..\..\Google translator\Google translator\bin\Debug\GoogleTranslateAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Google translator\Google translator\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="atom128_decode.Designer.vb">
+      <DependentUpon>atom128_decode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atom128_decode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atom_encode.Designer.vb">
+      <DependentUpon>atom_encode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atom_encode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="filepumper.Designer.vb">
+      <DependentUpon>filepumper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="filepumper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gmailer.Designer.vb">
+      <DependentUpon>gmailer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gmailer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="google.Designer.vb">
+      <DependentUpon>google.vb</DependentUpon>
+    </Compile>
+    <Compile Include="google.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graph.Designer.vb">
+      <DependentUpon>graph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="graph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazz 15 en.Designer.vb">
+      <DependentUpon>hazz 15 en.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hazz 15 en.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazz+15_decode.Designer.vb">
+      <DependentUpon>hazz+15_decode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hazz+15_decode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ip.Designer.vb">
+      <DependentUpon>ip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mp3.Designer.vb">
+      <DependentUpon>mp3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mp3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rc4en.Designer.vb">
+      <DependentUpon>rc4en.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rc4en.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="run.Designer.vb">
+      <DependentUpon>run.vb</DependentUpon>
+    </Compile>
+    <Compile Include="run.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trans.Designer.vb">
+      <DependentUpon>trans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tts.Designer.vb">
+      <DependentUpon>tts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="web.Designer.vb">
+      <DependentUpon>web.vb</DependentUpon>
+    </Compile>
+    <Compile Include="web.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="you.Designer.vb">
+      <DependentUpon>you.vb</DependentUpon>
+    </Compile>
+    <Compile Include="you.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="atom128_decode.resx">
+      <DependentUpon>atom128_decode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atom_encode.resx">
+      <DependentUpon>atom_encode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="filepumper.resx">
+      <DependentUpon>filepumper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gmailer.resx">
+      <DependentUpon>gmailer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="google.resx">
+      <DependentUpon>google.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graph.resx">
+      <DependentUpon>graph.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazz 15 en.resx">
+      <DependentUpon>hazz 15 en.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazz+15_decode.resx">
+      <DependentUpon>hazz+15_decode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ip.resx">
+      <DependentUpon>ip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mp3.resx">
+      <DependentUpon>mp3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rc4en.resx">
+      <DependentUpon>rc4en.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="run.resx">
+      <DependentUpon>run.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trans.resx">
+      <DependentUpon>trans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tts.resx">
+      <DependentUpon>tts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="web.resx">
+      <DependentUpon>web.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="you.resx">
+      <DependentUpon>you.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
